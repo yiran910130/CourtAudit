@@ -1,0 +1,22 @@
+{
+  "cross_split_groups": [],
+  "cross_split_text_duplicates": [
+    {
+      "normalized_text": "did you see the vehicle leave the street",
+      "record_ids": [
+        "r01",
+        "r10"
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    }
+  ],
+  "group_field": "source_id",
+  "n_cross_split_groups": 0,
+  "n_cross_split_text_duplicates": 1,
+  "n_records": 10,
+  "pass": false,
+  "split_field": "split"
+}

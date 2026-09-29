@@ -1,0 +1,113 @@
+{
+  "agent_outputs": {
+    "issues": [],
+    "n_issues": 0,
+    "n_records": 2,
+    "pass": true
+  },
+  "calibration": {
+    "accuracy": 0.8888888888888888,
+    "bin_details": [
+      {
+        "accuracy": 0.0,
+        "bin": 6,
+        "mean_confidence": 0.62,
+        "n": 1
+      },
+      {
+        "accuracy": 1.0,
+        "bin": 7,
+        "mean_confidence": 0.77,
+        "n": 2
+      },
+      {
+        "accuracy": 1.0,
+        "bin": 8,
+        "mean_confidence": 0.855,
+        "n": 4
+      },
+      {
+        "accuracy": 1.0,
+        "bin": 9,
+        "mean_confidence": 0.92,
+        "n": 2
+      }
+    ],
+    "bins": 10,
+    "brier_score": 0.06551111111111112,
+    "ece": 0.2022222222222222,
+    "n": 9
+  },
+  "generated_at_utc": null,
+  "inputs": {
+    "agent_outputs": {
+      "path": "demo_data/agent_outputs_clean.jsonl",
+      "sha256": "1b993a8a5e1959be7bf9d02b6636d2701d616f268d1ca8929eb027f872e79903"
+    },
+    "annotations": {
+      "path": "demo_data/annotations.csv",
+      "sha256": "1925e887a83d6475d960e3ce62e707259864193e50fbe25f4b3df6bc4a956d2e"
+    },
+    "predictions": {
+      "path": "demo_data/predictions.csv",
+      "sha256": "f5d7bef7c37763c256c1b4ec64ccac33ccdf291e35dfe8e73139692ed4b2aebb"
+    },
+    "records": {
+      "path": "demo_data/records_clean.jsonl",
+      "sha256": "2244ef8c37a2795738de35031c80572b3ce2693bdc08cdddd1c0ef12bbb6ea1b"
+    }
+  },
+  "leakage": {
+    "cross_split_groups": [],
+    "cross_split_text_duplicates": [],
+    "group_field": "source_id",
+    "n_cross_split_groups": 0,
+    "n_cross_split_text_duplicates": 0,
+    "n_records": 9,
+    "pass": true,
+    "split_field": "split"
+  },
+  "overall_pass": true,
+  "provenance": {
+    "computed_hashes": {
+      "r01": "2b47c875b7010fd430c41a2daaa8aa7d7b3158192f547943ad089c76e510e713",
+      "r02": "dcd28b8790fc5875ebf31d7f0db3296c902fac18ff36e26daa0b766dacdc0741",
+      "r03": "927cb27ad0173748d3359a153295d22363289f125cdcc77ae392a8c91bec2c17",
+      "r04": "df7fcda725d3e4fdfc7862947fcd9d3b10fe0b12e620dbc128c690320bed4e33",
+      "r05": "20558b1a2c686922f8c2090cbbc0e3d7aa4eeb6885df1c6179a35eff501b18c5",
+      "r06": "54ef7c67225bb60fcbde6be120263417283320600904f9462422a6481d76b529",
+      "r07": "b3aeaa5b1c524e8a1789df8709bf4f9cdeb02855d0fe73499336402fbaff1d03",
+      "r08": "b1f98829aa97397aee709da18b714545b756c275b3027f67fb19a74cde8bbe74",
+      "r09": "4c22f934565a991870adaef1f91575b542df005ee3a05db869778ed77f8e5f8f"
+    },
+    "mismatches": [],
+    "n_declared_hashes_checked": 0,
+    "n_mismatches": 0,
+    "n_records": 9
+  },
+  "reliability": {
+    "coders": [
+      "c1",
+      "c2"
+    ],
+    "cohens_kappa_two_coders": 0.7804878048780487,
+    "krippendorff_alpha_nominal": 0.7901234567901234,
+    "n_coders": 2,
+    "n_items": 9,
+    "n_rows": 18,
+    "pairwise_percent_agreement": 0.8888888888888888
+  },
+  "schema": {
+    "errors": [],
+    "n_errors": 0,
+    "n_records": 9,
+    "required_fields": [
+      "record_id",
+      "source_id",
+      "text"
+    ],
+    "valid": true
+  },
+  "tool": "CourtAudit",
+  "version": "0.1.0"
+}

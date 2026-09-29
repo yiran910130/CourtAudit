@@ -1,0 +1,15 @@
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+courtaudit/__init__.py          1      0   100%
+courtaudit/__main__.py          2      2     0%   1-2
+courtaudit/agent.py            22      0   100%
+courtaudit/calibration.py      32      1    97%   15
+courtaudit/cli.py              38      1    97%   43
+courtaudit/io.py               28      1    96%   13
+courtaudit/leakage.py          24      0   100%
+courtaudit/provenance.py       30      0   100%
+courtaudit/reliability.py      61      3    95%   22, 43, 48
+courtaudit/report.py           45      0   100%
+courtaudit/schema.py           21      0   100%
+---------------------------------------------------------
+TOTAL                         304      8    97%

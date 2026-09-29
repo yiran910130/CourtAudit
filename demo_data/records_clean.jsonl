@@ -1,0 +1,9 @@
+{"record_id":"r01","source_id":"case01","text":"Did you see the vehicle leave the street?","split":"train"}
+{"record_id":"r02","source_id":"case02","text":"You had already spoken to the officer, correct?","split":"train"}
+{"record_id":"r03","source_id":"case03","text":"Was the document translated before the interview?","split":"train"}
+{"record_id":"r04","source_id":"case04","text":"You never received that notice, did you?","split":"dev"}
+{"record_id":"r05","source_id":"case05","text":"Could you explain what you understood at that point?","split":"dev"}
+{"record_id":"r06","source_id":"case06","text":"The interpreter was present during the interview, correct?","split":"dev"}
+{"record_id":"r07","source_id":"case07","text":"You agreed with the proposition at the time, did you not?","split":"test"}
+{"record_id":"r08","source_id":"case08","text":"Which words in the notice were unclear to you?","split":"test"}
+{"record_id":"r09","source_id":"case09","text":"Did the witness ask for clarification?","split":"test"}
